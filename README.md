@@ -1,20 +1,35 @@
-# Model-U
+# OlyU
 
-This is a circuit board for adding USB-C to custom controllers.
+The OlyU is a variant of the Model-U designed for PhoZL and PhobGCCv2.0.3+ to allow for easier shell compatibility and USB data connection. There are 2 variants
+Check the Images folder for more detail!
 
-Currently there are two versions of this board. One that is shaped to mount onto other circuit boards, and another that is shaped to mount onto a GameCube controller motherboard.
 
-### Type 1 - Model U
-![image](img/model_u.jpg)
-### Type 2 - Model U GCC
-![image](img/model_u_gcc.jpg)
+### Type 1 - OlyU-Small
+![image]()
+### Type 2 - OlyU-Big
+![image]()
 
-Both can be used with USBC-Gamecube cables and USBC-N64 cables that use the same pinout as the B0XX/Frame1.
+# Overview
+Both of these boards feature 8 pads. 6 of these pads connect to the GameCube Controller's standard 6 connections for the main cable. The other 2 pads are for USB Data + and -
+The shape and alignment of these pads are designed so that installation is easy and does not require any wire stretching across the board. These boards are compatible with PhobGCC and OEM gamecube controllers, but the USB data pins are specifically designed for the PhobGCC and PhoZL (https://github.com/sean44104/phozl)
+
+# PCB Differences
+The OlyU small version is designed to be installed so that the USB-C port is sandwiched between the main pcb and the OlyU pcb. This way, you can use 2mm pin headers for the installation. It has also been reshaped to perfectly fit with the Gamecube Ultimate's shell design
+
+The OlyU big version is shaped just like a standard Model-U. Instead of the USB-C port being in between the 2 PCBs, the order goes PCB,PCB,Port. The PCB is designed this way to allow for easy installation into OEM Gamecube Shells with minimal cutting. However, this makes installation slightly more tricky
+
+Both boards have their USB Data pads aligned perfectly with the main PhoZL and PhobGCC PCB
+
+# NOTE
+When ordering these boards on JLCPCB, make sure that your SMT Assembly is BOTTOM for OlyU-Small and TOP for OlyU-Big
+Every other setting can be left default, and the finish can be whatever you prefer
 
 ## License
 This project is licenced under the GNU GPL Version 3. [See the included LICENSE file for details](LICENSE).
 
-## Support my work
-I set up a donation link for people who appreciate my work and wish to donate. Donations are greatly appreciated, but are far from necessary:
 
+# Crane's Lab
+
+Model-U is a circuit board for adding USB-C to custom controllers originally created by Crane.
+Please support him here:
 https://www.paypal.com/donate/?hosted_button_id=NFDEML5FKR8N8

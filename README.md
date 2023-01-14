@@ -1,6 +1,6 @@
 # OlyU
 
-The OlyU is a variant of the Model-U designed for PhoZL and PhobGCCv2.0.3+ to allow for easier shell compatibility and USB data connection. There are 2 variants, check the Images folder for more detail!
+The OlyU is a variant of the Model-U designed for PhoZL and PhobGCCv2.0.3+ to allow for easier shell compatibility and USB data connection. There are 2 variants:
 
 
 ### Type 1 - OlyU-Small

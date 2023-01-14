@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.6,
-          "width": 1.0
+          "drill": 1.0,
+          "height": 1.4,
+          "width": 2.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -373,7 +373,7 @@
       "idf": "",
       "netlist": "USBC_Breakout.net",
       "specctra_dsn": "../../!!!!!kicad autorouting/modelumodified.dsn",
-      "step": "OlyU.step",
+      "step": "../USB-C and PCB Model/OlyU.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
